@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    </head>
+<body>
+
+    <header>
+        <div class="navbar-container">
+            <a href="#home" class="site-title">KJA</a>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about-me" class="nav-link">About Me</a></li>
+                    <li><a href="#artistic-skills" class="nav-link">Artistic Skills</a></li>
+                    <li><a href="#my-projects" class="nav-link">My Projects</a></li>
+                    <li><a href="#contact-me" class="nav-link">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="section-image-container">
+             <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/494814996_720769743822569_3725437114204690520_n.png?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFtko7_WYXxhNpP_cTjn2fEU50eyQECeyhTnR7JAQJ7KO8HFufBAmzaZ-1zPT9K9CgHmb_c32Ai-PlN9YjOelSf&_nc_ohc=9tn8tBQPILEQ7kNvwGbof_K&_nc_oc=Adkz1Zm9dnRypt6525kM17rM72a-CmyHzQx2Y_5ZUGViq25IaGAnIgIVOL3XrZaa4XE&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&oh=03_Q7cD2gHQRs53yjwVZqkHkqbnznIOCQDGv-s8xFhAMJk-5ew-6g&oe=686A62F9" alt="My Photo" class="profile-image">
+            </div>
+            <div class="home-content">
+                <h1>Hello, I'm Kristine</h1>
+                <p>A passionate artist and creative professional dedicated to bringing ideas to life through unique designs and captivating visuals.</p>
+                <a href="#contact-me" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about-me">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I am a artist with a strong background in graphic design, illustration, and paintings. My journey in art began with a fascination for color and form, evolving into a dedicated pursuit of visual storytelling. I love exploring new techniques and pushing creative boundaries to deliver impactful and aesthetically pleasing work. I am passionate about creating character designs, designing user interfaces, art portraits.</p>
+            </div>
+            <div class="section-image-container">
+                <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/504766850_1277791773912296_5216335981001876281_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH7hesydp4WO16zzvF859-kjNUHL5_kHBOM1Qcvn-QcE24ZsKwt8i50PNLG3Nm4vIx1JnlQUdVYeClbThFSKf4R&_nc_ohc=FScu25wUSegQ7kNvwEdLXs3&_nc_oc=Adn3L8US0zVzcBC0konBIR9f2qdnWuFA3UDD0Mse0Ect8yFzyAcpjXctjwW6_NIw7f4&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=cAbnOEhrRT1CcruX0BKc7g&oh=00_AfOYv-CcumxN8z7OSKmugK_UOuTd2zK8ZsgpHud75A602Q&oe=6848AEE7" alt="My Photo" class="profile-image">
+            </div>
+        </section>
+
+        <section id="artistic-skills">
+            <h2>Artistic Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon-placeholder">🎨</div>
+                    <h3>Painting</h3>
+                    <p>With a brush as my voice, I translate emotions and visions onto canvas, specializing in vibrant digital landsacapes and evocative raditional portraits that capture the soul of the subject. </p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-placeholder">✍️</div>
+                    <h3>Illustration</h3>
+                    <p>My passion lies in creating illustrations, blending artistic technique with imaginative concepts to translate ideas into visual narratives.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-placeholder">📐</div>
+                    <h3>Graphic Design</h3>
+                    <p>I transform ideas into clear and impactful visuals, spcializing in graphic design.</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="my-projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="image-placeholder" id="img1"></div>
+                    <div class="project-card-content">
+                        <h3>Paintings</h3>
+                        <p class="project-description">A series of paintings exploring color theory and abstract forms.</p>
+                        <div class="button-group">
+                            <button class="see-more-btn" data-project="project1">See more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" >
+                    <div class="image-placeholder" id="img2"></div>
+                    <div class="project-card-content">
+                        <h3>Illustration</h3>
+                        <p class="project-description">Concepts that communicate ideas effectively through illustrations.</p>
+                        <div class="button-group">
+                            <button class="see-more-btn" data-project="project2">See more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="image-placeholder" id="img3"></div>
+                    <div class="project-card-content">
+                        <h3>Graphic Design</h3>
+                        <p class="project-description">Visual designs that communicate messages effectively.</p>
+                        <div class="button-group">
+                            <button class="see-more-btn" data-project="project3">See more</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+       <section id="contact-me">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+                    <p>Email: <a href="mailto:kristinejoyalay43@gmail.com" style="color: var(--primary-color); text-decoration: none;">kristinejoyalay43@gmail.com</a></p>
+                    <p>Phone: +639273201490</p>
+                    <p>Location: Poblacion, Muntinlupa City</p>
+
+                    <div class="social-links">
+                        <h3>Find Me Online</h3>
+                        <div>
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.204-.012 3.584-.07 4.85-1.148 3.252-1.691 4.771-4.919 4.919-1.266.058-1.644.069-4.85.069-3.204 0-3.584-.012-4.85-.07-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.849 0-3.204.012-3.584.07-4.85 1.148-3.252 1.691-4.771 4.919-4.919 1.266-.058 1.644-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072c-4.358.211-6.799 2.651-7.011 7.012c-.057 1.28-.072 1.688-.072 4.947s.014 3.668.072 4.948c.212 4.358 2.652 6.799 7.011 7.011c1.28.057 1.688.072 4.947.072s3.668-.014 4.948-.072c4.358-.211 6.799-2.651 7.011-7.011c.057-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.211-4.358-2.651-6.799-7.011-7.011c-1.28-.057-1.688-.072-4.947-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.444.647-1.444 1.443s.647 1.444 1.444 1.444c.796 0 1.443-.647 1.443-1.444s-.647-1.443-1.443-1.443z"/>
+                            </svg>
+                            <span>@grjssten</span>
+                        </div>
+                        <div>
+                            <svg viewBox="0 0 24 24">
+                                <path d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"/>
+                               </svg>
+                            <span>@Kristine Pureza Alay</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h3>Send me a Message</h3>
+                    <form  action="https://formsubmit.co/kristinejoyalay43@gmail.com" method="POST" id="contactForm" class="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Kristine Alay. All rights reserved.</p>
+    </footer>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" data-modal="projectModal">&times;</span>
+            <h3 id="modalTitle">Project Details</h3>
+            <div id="modalImages" class="modal-image-grid">
+                </div>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <div id="messageSentModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" data-modal="messageSentModal">&times;</span>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. I will get back to you as soon as possible.</p>
+        </div>
+    </div>
+
+    <script>
+        const mainNav = document.getElementById('mainNav');
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const header = document.querySelector('header'); // Get header for offset calculation
+
+        // Toggle mobile navigation
+        hamburger.addEventListener('click', () => {
+            mainNav.classList.toggle('open');
+            hamburger.classList.toggle('open');
+        });
+
+        // Smooth scrolling for navigation links
+        navLinks.forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+
+                if (targetSection) {
+                    const offsetTop = targetSection.offsetTop - header.offsetHeight; // Adjust for sticky header
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+
+                // Close mobile menu after clicking a link
+                if (mainNav.classList.contains('open')) {
+                    mainNav.classList.remove('open');
+                    hamburger.classList.remove('open');
+                }
+
+                // Update active class for nav links
+                navLinks.forEach(link => link.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Set initial active class for home on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            const homeLink = document.querySelector('nav a[href="#home"]');
+            if (homeLink) {
+                homeLink.classList.add('active');
+            }
+        });
+
+        // Update active nav link on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav a');
+            const headerHeight = header.offsetHeight;
+
+            let currentSection = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - headerHeight - 1; // -1 for slight buffer
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(currentSection)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+
+        // Project Modal Logic
+        const projectModal = document.getElementById('projectModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalDescription = document.getElementById('modalDescription');
+        const modalImages = document.getElementById('modalImages');
+
+        const projectData = {
+            project1: {
+                title: 'Paintings',
+                description: 'A series of paintings exploring color theory and abstract forms.',
+                images: [
+                    "isda.jpg",
+                    'graphic.png'
+                ]
+            },
+            project2: {
+                title: 'Illustrations',
+                description: 'Concepts that communicate ideas effectively through illustrations.',
+                images: [
+                    'illust1.jpg',
+                    'illust2.jpg'
+                ]
+            },
+            project3: {
+                title: 'Graphic Design',
+                description: 'Visual designs that communicate messages effectively.',
+                images: [
+                    'graphic1.jpg',
+                    'graphic2.jpg'
+                ]
+            }
+        };
+
+        document.querySelectorAll('.see-more-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const projectId = this.dataset.project;
+                const data = projectData[projectId];
+
+                if (data) {
+                    modalTitle.textContent = data.title;
+                    modalDescription.textContent = data.description;
+                    modalImages.innerHTML = ''; // Clear previous images
+                    data.images.forEach(src => {
+                        const img = document.createElement('img');
+                        img.src = src;
+                        img.alt = data.title + ' example';
+                        modalImages.appendChild(img);
+                    });
+                    projectModal.style.display = 'flex';
+                }
+            });
+        });
+
+        // Close buttons for all modals
+        document.querySelectorAll('.close-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const modalToCloseId = this.dataset.modal;
+                document.getElementById(modalToCloseId).style.display = 'none';
+            });
+        });
+
+        // Close modals when clicking outside
+        window.addEventListener('click', (event) => {
+            if (event.target == projectModal) {
+                projectModal.style.display = 'none';
+            }
+            if (event.target == messageSentModal) {
+                messageSentModal.style.display = 'none';
+            }
+        });
+
+        
+          
+          
+        
+    </script>
+</body>
+</html>
